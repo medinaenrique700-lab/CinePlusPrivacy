@@ -27,7 +27,7 @@ jobs:
           gradle-version: '8.10.2'
 
       - name: Extract project
-        run: unzip CinePlusPrivacy-project.zip -d .
+        run: unzip CinePlusPrivacy-project-fixed.zip -d .
 
       - name: Build APK
         working-directory: CinePlusPrivacy
